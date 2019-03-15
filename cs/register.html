@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>欢迎注册</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylecss/register.css">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+    <div class="container ">
+            <div class="tit row">
+                <div class="col-md-10  col-md-offset-1">
+                    <img src="images/pic_033.png">
+                    <h4>用户注册</h4>
+                </div>
+            </div>
+                    
+        <div class="row ">
+            <div class="col-md-10  col-md-offset-1">
+        
+    <!-- form - start----------------------------->
+          
+
+        <form class="form-horizontal" id="wrap">
+            <p>你好，感谢你加入百联</p>
+            <div class="form-group">
+                <label for="inputEmail3" class="col-sm-2 control-label col-sm-offset-2">用户名：</label>
+                <div class="col-sm-4">
+                        <input  type="text" class="col-sm-4 form-control" id="username" 
+                        name="username" required="true" 
+                        placeholder="6-20位字符，支持字母或字母与数字组合">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="inputEmail3" class="col-sm-2 control-label col-sm-offset-2">登录密码：</label>
+                <div class="col-sm-4">
+                    <input  class="form-control" id="password" name="password"
+                    id="regex" name="regex"
+                    required="true" regexpr="true" isZipCode="true" id="isZipCode"
+                    placeholder="8-20位字符，至少使用两种字符组合">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="inputEmail3" class="col-sm-2 control-label col-sm-offset-2">确认密码：</label>
+                <div class="col-sm-4">
+                    <input  class="form-control" 
+                    name="confirm_password" id="confirm_password"
+                     placeholder="请再次输入密码">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="inputEmail3" class="col-sm-2 control-label col-sm-offset-2">手机号：</label>
+                <div class="col-sm-4">
+                    <input  class="form-control" id="inputEmail3" placeholder="请输入11位手机号码"
+                    id="isMobile" name="isMobile" required="true">
+                </div>
+                
+            </div>
+            <div class="form-group">
+                <label for="inputEmail3" class="col-sm-2 control-label col-sm-offset-2">验证码：</label>
+                <div class="col-sm-4">
+                    <input  class="form-control" id="inputEmail3" placeholder="请输入验证码">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="inputEmail3" class="col-sm-2 control-label col-sm-offset-2">电子邮箱：</label>
+                <div class="col-sm-4">
+                    <input class="form-control" id="inputEmail3" placeholder="请输入邮箱" required="true"
+                   id="email" name="email"
+                    >
+                </div>
+            </div>
+            
+            <div class="form-group">
+
+            <div class="col-sm-offset-4 col-sm-6">
+                <div class="checkbox">
+                <label>
+                    <input type="checkbox" id="agree" name="agree"> 我已阅读并同意<a href="#">《百联通会员注册协议》</a>
+                </label>
+                </div>
+            </div>
+            </div>
+            <div class="form-group">
+            <div class="col-sm-offset-5 col-sm-7">
+                <button type="submit" class="btn btn-default" id="btn">Sign in</button>
+            </div>
+            </div>
+        </form>
+<!-- form - end------------------------------->
+                </div>
+        </div>
+    </div>
+
+    <!-- 底部 -->
+
+    <div class="foot-bottom">
+        <ul>
+            <li><a href="#">关于我们</a></li>
+            <li><a href="#">关于我们</a></li>
+            <li><a href="#">关于我们</a></li>
+            <li><a href="#">关于我们</a></li>
+            <li><a href="#">关于我们</a></li>
+            <li><a href="#">关于我们</a></li>
+        </ul>
+        <div class="copyright">
+            <a href="#">百联集团有限公司版权所有</a>
+            <a href="#">客服电话：400-900-8800</a>
+            <a href="#">沪ICP备15028847号</a>
+        </div>
+        <div class="certificate">
+            <a href="#">互联网药品信息服务资质证书编号：沪-（非营业性）-2016-0044</a>
+        </div>
+        <div class="Permit">
+            <a href="#">全渠道增值电信业务经营许可证</a>
+        </div>
+        <!--  -->
+        <div class="police">
+            <a href="#">
+                <img src="images/pic_216.png" alt="">
+                <span>沪公网安备 31010102002366号</span>
+            </a>
+            <a href="#">
+                <img src="images/pic_217.png" alt="">
+                <span>网购大家评</span>
+            </a>
+            <a href="#">
+                <img src="images/pic_218.png" alt="">
+                <span>上海工商</span>
+            </a>
+            <a href="#">
+                <img src="images/pic_219.png" alt="">
+                <span>经营执照</span>
+            </a>
+        </div>
+    </div>
+<!-- 连接 -->
+
+<script src="http://libs.baidu.com/jquery/1.11.3/jquery.js"></script>
+<script src="javascript/js.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.js"></script>
+<script src="http://static.runoob.com/assets/jquery-validation-1.14.0/dist/jquery.validate.min.js"></script>
+
+    <script>
+       $.validator.setDefaults({
+             submitHandler: function() {
+                var btn = document.getElementById("btn");
+                var username = document.getElementById("username");
+                var password = document.getElementById("password");
+                var user = username.value;
+                var pass = password.value;
+                //    console.log(user,pass);
+                // ajax技术发送；
+                    var url = "http://localhost/bl/interface/register.php";
+                        url += `?username=${user}&password=${pass}`;
+                    var xhr = new XMLHttpRequest();
+                    xhr.open("GET",url);
+                    xhr.send(null);
+                    xhr.onreadystatechange=function(){
+        
+                        if(xhr.readyState ===4 && xhr.status ===200){
+                             console.log(JSON.parse(xhr.response).stateCode)
+                        if(JSON.parse(xhr.response).stateCode == "1" ){
+                            alert("注册成功")
+                            location.href="index.html"
+                        }
+                            // resolve(xhr.response);
+                            // console.log(xhr.response);
+                        }
+                    }       
+        
+            }
+        });
+    $().ready(function() {
+    // 在键盘按下并释放及提交后验证提交表单
+
+    jQuery.validator.addMethod("regex", function(value, element, regexpr) {          
+            return regexpr.test(value);
+          }, "Please enter a valid pasword.");   //增加regex正则表达式验证
+    jQuery.validator.addMethod("isMobile", function(value, element) {
+        var length = value.length;
+        var mobile = /^(13[0-9]{9})|(18[0-9]{9})|(14[0-9]{9})|(17[0-9]{9})|(15[0-9]{9})$/;
+        return this.optional(element) || (length == 11 && mobile.test(value));
+     }, "请正确填写您的手机号码");
+    $("#wrap").validate({
+            rules: {
+                firstname: "required",
+                lastname: "required",
+                username: {
+                    required: true,
+                    minlength: 6
+            },
+            password: {
+                required: true,
+                minlength: 5,
+                // isZipCode:true,
+                regex: /^(?![0-9]+$)(?![a-zA-Z]+$)[0-9A-Za-z]{6,20}$/ 
+            },
+            confirm_password: {
+                required: true,
+                minlength: 5,
+                equalTo: "#password"
+            },
+            isMobile:{
+                required:true,
+                isMobile:true,
+            },
+            email: {
+                required: true,
+                email: true
+            },
+            "topic[]": {
+                required: "#newsletter:checked",
+                minlength: 2
+            },
+            agree: "required"
+            },
+
+
+            // 提示
+            messages: {
+                firstname: "请输入您的名字",
+                lastname: "请输入您的姓氏",
+            username: {
+                required: "请输入用户名",
+                minlength: "用户名必需由六位组成"
+            },
+            password: {
+                required: "请输入密码",
+                minlength: "密码长度不能小于 5 个字母",
+                regex:"输入字母和数字"
+            },
+            confirm_password: {
+                required: "请输入密码",
+                minlength: "密码长度不能小于 5 个字母",
+                equalTo: "两次密码输入不一致"   
+            },
+            isMobile:{
+                required:"请输入正确手机号",
+                isMobile:"请输入正确手机号"
+            },
+            email: "请输入一个正确的邮箱",
+            agree: "需勾选声明",
+            }
+        });
+    });
+        </script>
+
+
+        <script>
+
+                // 这是表单的阻止默认事件
+                var wrap = document.getElementById("wrap");
+            
+                wrap.onsubmit =function(evt){
+                    var e = evt ||window.event;
+                    e.preventDefault();
+                }
+        
+                // 这是按钮事件
+                
+            //     btn.addEventListener("click",register);
+            //     function register(){
+            //     var btn = document.getElementById("btn");
+            //     var username = document.getElementById("username");
+            //     var password = document.getElementById("password");
+            //     var user = username.value;
+            //     var pass = password.value;
+            //     //    console.log(user,pass);
+            //     // ajax技术发送；
+            //         var url = "http://localhost/bl/interface/register.php";
+            //             url += `?username=${user}&password=${pass}`;
+            //         var xhr = new XMLHttpRequest();
+            //         xhr.open("GET",url);
+            //         xhr.send(null);
+            //         xhr.onreadystatechange=function(){
+        
+            //             if(xhr.readyState ===4 && xhr.status ===200){
+            //                  console.log(JSON.parse(xhr.response).stateCode)
+            //             if(JSON.parse(xhr.response).stateCode == "1" ){
+            //                 alert("注册成功")
+            //                 location.href="index.html"
+            //             }
+            //                 // resolve(xhr.response);
+            //                 // console.log(xhr.response);
+            //             }
+            //         }       
+        
+            // }
+        </script>              
+</body>
+</html>

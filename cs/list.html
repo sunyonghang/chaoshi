@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylecss/main.css">
+    <link rel="stylesheet" href="stylecss/list.css">
+</head>
+<body>
+    <header>
+        <div class="tit-wrap">
+            <div class="tit">
+                百联集团旗下全渠道电商平台
+            </div>
+            <div class="http-nav">
+                <a href="#">网站导航</a>
+            </div>
+            <div class="news">
+                <a href="#">消息</a>
+            </div>
+            <div class="tit-right">
+                <ul>
+                    <li>
+                        <a href="#">
+                                <i class="fa fa-user-plus" aria-hidden="true"></i>
+                            <span>请登录</span>
+                            <span>注册</span>
+                        </a>
+                    </li>
+                    <li><a href="#">我的订单</a></li>
+                    <li><a href="#">我的百联</a></li>
+                    <li><a href="#">充值缴费</a></li>
+                    <li><a href="#">客户服务</a></li>
+                    <li><a href="#">掌上百联</a></li>
+                    <li><a href="#">购物车</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="log-wrap">
+        <div class="log-container">
+            <div class="top-log">
+                <div>   
+                    <a href="#"><img src="images/pic_033.png"></a>
+                </div>
+                <div>
+                    <a href="#"><img src="images/pic_034.jpg"></a>
+                </div>
+                <div>
+                    <input type="text" class="ipt-log" id="inp"><button class="btn-log">搜索</button>
+                        <ul id="list">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    
+                    <ul class="toplog-ul">
+                        <li>mate 20</li>
+                        <li>sufee go</li>
+                        <li>手机</li>
+                        <li>羽绒服</li>
+                        <li>桔子</li>
+                        <li>米</li>
+                        <li>咖啡</li>
+                        <li>苹果</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="bottom-log">
+                <h4>所用商品分类</h4>
+                <ul class="bottomlog-ul">
+                    <li><a href="#">生活用品</a></li>
+                    <li><a href="#">24H百货</a></li>
+                    <li><a href="#">全球购</a></li>
+                    <li><a href="#">精品闪购</a></li>
+                    <li><a href="#">电器城</a></li> 
+                    <li><a href="#">百联卡</a></li>
+                    <li><a href="#">百联到家</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- 商品列表 -->
+    <div class="list">
+        <div>
+            <img src="http://Img.iblimg.com/photo-42/2000/943112519_200x200.jpg">
+            <span>1</span>
+            <span>30</span>
+            <p class="tie"></p>
+            <p>联华自营</p>
+            
+                <button>加入购物车</button>
+            
+        </div>
+    </div>
+</body>
+
+<script src="http://libs.baidu.com/jquery/1.11.3/jquery.js"></script>
+<script src="./javascript/ajax.js"></script>
+<script src="javascript/art-template.js"></script>
+
+<script type="text/html" id="list-item">
+    {{each list item}}
+        <div>
+            <img src={{item.image}}>
+            <span>{{item.pices}}</span>
+            <!-- <span>{{item.style}}</span> -->
+            <p class="tie">{{item.title}}</p>
+            <p>{{item.style}}</p>
+            <button>加入购物车</button>
+        </div>
+    {{/each}}
+</script>
+</html>
